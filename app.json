@@ -1,0 +1,30 @@
+{
+  "name": "DARK-DRAGON-MD",
+  "description": "Javascript WhatsApp bot made by Lithum",
+  "logo": "https://unitedcamps.in/Images/file_5278.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put your github auth token url..",
+      "required": true
+    },
+    "GITHUB_USERNAME": {
+      "description": "Put your github user name.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
