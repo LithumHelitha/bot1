@@ -5,8 +5,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "YcgQ0KqI#XVKcXV4Do6zVmIwjA9vlMnXfq6HK5EVsWnoGMIpfnH4",
-GITHUB_USERNAME: process.env.GITHUB_USERNAME === undefined ? '': process.env.GITHUB_USERNAME,
-GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '': process.env.GITHUB_AUTH_TOKEN,
-MONGODB: process.env.MONGODB || "mongodb+srv://myrender971:iwS8N2qB3Q8wMw83@cluster0.he9fd.mongodb.net/"    
+SESSION_ID: process.env.SESSION_ID || "put your session_id",
+MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://imgur.com/a/cRf2GXD",
+AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
+AUTO_BIO:"true"
 };
