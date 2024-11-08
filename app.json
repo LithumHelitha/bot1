@@ -1,7 +1,7 @@
 {
-  "name": "DARK-DRAGON-MD",
-  "description": "Javascript WhatsApp bot made by Lithum",
-  "logo": "https://unitedcamps.in/Images/file_5278.jpg",
+  "name": "QUEEN-CHOOTY-NELUMI-MD",
+  "description": "Javascript WhatsApp bot made by Pahasara",
+  "logo": "https://imgur.com/a/cRf2GXD",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -11,14 +11,15 @@
       "required": true
     },  
 
-    "GITHUB_AUTH_TOKEN": {
-      "description": "Put your github auth token url..",
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
       "required": true
     },
-    "GITHUB_USERNAME": {
-      "description": "Put your github user name.",
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
       "required": true
-    }
+    }   
 },
 
      "buildpacks": [
